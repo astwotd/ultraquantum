@@ -12,15 +12,16 @@
     color: #111111;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    min-width: 950px;
-    overflow-x: hidden;
+    min-width: 1000px;
+    
     
     background: #ffffff;
   
   }
 
   .container {
-    max-width: 1920px;  
+    
+    min-width: 1000px;
   }
 
   h1,
