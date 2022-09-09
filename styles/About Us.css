@@ -1,0 +1,334 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  color: #111111;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  min-width: 950px;
+
+  background: #ffffff;
+  /* max-width: 1200px; */
+
+}
+
+h1,
+h2,
+h3 {
+  padding-right: 15px;
+  padding-left: 15px;
+
+  font-weight: bold;
+  font-size: 3em;
+}
+
+
+.h-150 {
+  height: 150px;
+}
+
+
+
+.p-2 {
+  padding: 2em;
+}
+
+.color-logo {
+  color: #246d69;
+}
+.mr-1 {
+  margin-right: 3em;
+}
+
+.font-2 {
+  font-size: 2em;
+  padding-left: 84px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.bg-light {
+  background: #ffffff;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  z-index: 100;
+
+  border-bottom: 1px solid #e0dfdf;
+}
+
+.fixed-header {
+  
+  position: fixed;
+  height: 100px;
+  width: 100%;
+
+}
+
+
+.nav-horizontal {
+  display: flex;
+  justify-content: space-evenly;
+
+  list-style: none;
+}
+
+.nav-horizontal a {
+  color: #111111;
+  font-weight: bold;
+  text-decoration: none;
+
+  transition: 0.6s;
+}
+
+.uq-logo {
+  color: #246d69;
+  font-weight: bold;
+  text-decoration: none;
+  
+  
+
+  transition: 0.6s;
+}
+
+.nav-horizontal a:hover {
+  color: #246d69;;
+}
+
+
+
+.viewable {
+  opacity: 1;
+  
+  left: 0;
+  width: 100%;
+  height: 50%;
+  position: relative;
+
+  animation: 3s anim-lineUp ;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.container {
+  letter-spacing: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;  
+}
+
+.container-1 {
+  padding-left: 100px;
+  padding-top: 110px;
+
+  
+    animation: 3s anim-lineUp ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(2%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+.container-2 {
+  position: absolute;
+  color: #ffffff;
+  top: 640px;
+  right: 15px;
+  text-align: right;
+  margin-right: 30px;
+
+  animation: 4s anim-lineUp ;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.strings {
+  color: #111111;
+  padding-left: 110px;
+  padding-top: 120px;
+  
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: left;
+  animation: 3s anim-lineUp ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(2%);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+.second-string {
+  font-size: 25px;
+  padding-right: 300px;
+  font-weight: 500;
+  padding-left: 110px;
+  line-height: 40px;
+  animation: 3s anim-lineUp ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10%);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+ }
+
+ .str-1 {
+  color: #111111;
+  padding-left: 110px;
+  padding-top: 10px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: left;
+  animation: 3s anim-lineUp ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(2%);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+.sec-1 {
+  font-size: 25px;
+  padding-right: 250px;
+  font-weight: 500;
+  padding-left: 110px;
+  line-height: 40px;
+  animation: 3s anim-lineUp ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(2%);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+ }
+
+.profile {
+  margin-top: 0px;
+}
+
+/* .logos {
+  width: 90%;
+  height: 50%;
+  position: relative;
+  margin-bottom: 100px;
+  margin-left: 60px;
+} */
+
+h3 {
+  text-align: center;
+  font-size: 10px;
+  color: #246d69;
+}
+
+.logo-1,
+.logo-2,
+.logo-3,
+.logo-4,
+.logo-5,
+.logo-6,
+.logo-7,
+.logo-8,
+.logo-9,
+.logo-10,
+.logo-11,
+.logo-12,
+.logo-13,
+.logo-14,
+.logo-15,
+.logo-16,
+.logo-17,
+.logo-18,
+.logo-19,
+.logo-20,
+.logo-21,
+.logo-22,
+.logo-23 {
+  margin-bottom: 100px;
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.logos {
+  width: 100%;
+  height: auto;
+}
+
