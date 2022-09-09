@@ -112,16 +112,16 @@
     transition: 0.6s;
   }
 
-  /* .cnspack {
+  .cnspack {
     text-decoration:underline;
     color: #246d69;
-  } */
+  }
  
   .nav-horizontal a:hover {
     color: #246d69;;
   }
   
-  /* .some {
+  .some {
     padding-top: 110px;
     padding-left: 115px;
     font-size: 30px;
@@ -142,11 +142,11 @@
       transform: translateY(0%);
     }
   }
-   */
   
-  /* .services {
+  
+  .services {
     font-size: 70px;
-  } */
+  }
   
   .column-container {
     display: flex;
