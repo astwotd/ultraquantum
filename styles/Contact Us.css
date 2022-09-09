@@ -9,11 +9,10 @@ body {
   color: #111111;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  min-width: 950px;
+  min-width: 1000px;
 
   background: #ffffff;
-  /* max-width: 1200px; */
-
+ 
 }
 
 h1,

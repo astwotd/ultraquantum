@@ -10,10 +10,10 @@ body {
   color: #111111;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  min-width: 950px;
+  min-width: 1000px;
 
   background: #ffffff;
-  /* max-width: 1920px; */
+ 
 
 }
 
@@ -120,16 +120,23 @@ h3 {
   width: 50%;
   height: 50%;
   position: relative;
+  transition: transform .2s;
 
+}
+
+.viewable:hover {
+  transform: scale(2);
 }
 
 .viewable-1 {
   width: 20%;
   height: 20%;
+  transition: transform .2s;
   
-  
-  
-  
+}
+
+.viewable-1:hover {
+  transform: scale(2);
 }
 
 .container {
