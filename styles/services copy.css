@@ -197,7 +197,7 @@ h3 {
 }
 
 
-.strings {
+/* .strings {
   color: #111111;
   padding-left: 110px;
   padding-top: 120px;
@@ -237,11 +237,9 @@ h3 {
       opacity: 1;
       transform: translateY(0%);
     }
- }
+ } */
 
-.profile {
-  margin-top: 0px;
-}
+
 
 /* .logos {
   width: 90%;
@@ -259,5 +257,30 @@ h3 {
 
 
 
+P {
+  border: 2px solid rgb(23, 23, 23); 
+  margin-left: 110px;
+  margin-right: 110px;
+  border-radius: 20px/20px;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+  animation: 3s anim-lineUp ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10%);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  
 
+  
+}
  
