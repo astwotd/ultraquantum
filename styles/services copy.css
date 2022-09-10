@@ -264,11 +264,11 @@ h3 {
   height: 100px;
 }
 
-.logos {
+/* .logos {
   width: 100%;
   height: auto;
   transition: transform .2s;
-}
+} */
 
 .logos:hover {
 transform: scale(1.5);
