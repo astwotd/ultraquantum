@@ -197,7 +197,7 @@ h3 {
 }
 
 
-/* .strings {
+.strings {
   color: #111111;
   padding-left: 110px;
   padding-top: 120px;
@@ -237,17 +237,9 @@ h3 {
       opacity: 1;
       transform: translateY(0%);
     }
- } */
+ }
 
 
-
-/* .logos {
-  width: 90%;
-  height: 50%;
-  position: relative;
-  margin-bottom: 100px;
-  margin-left: 60px;
-} */
 
 h3 {
   text-align: center;
