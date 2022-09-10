@@ -259,7 +259,7 @@ h3 {
 
 
 
-P {
+/* P {
   border: 2px solid rgb(23, 23, 23); 
   margin-left: 110px;
   margin-right: 110px;
@@ -269,7 +269,7 @@ P {
   font-size: 25px;
   font-weight: 500;
   line-height: 40px;
-  /* animation: 3s anim-lineUp ;
+  animation: 3s anim-lineUp ;
   }
   @keyframes anim-lineUp {
     0% {
@@ -281,8 +281,8 @@ P {
       opacity: 1;
       transform: translateY(0%);
     }
-   */
+  
 
   
-}
+} */
  
