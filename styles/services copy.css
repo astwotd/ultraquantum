@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  
 }
+
 
 body {
   margin: 0;
@@ -11,10 +11,14 @@ body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   min-width: 1000px;
-
+  
   background: #ffffff;
- 
+  
 
+}
+
+.container {
+  max-width: 1920px;  
 }
 
 h1,
@@ -69,6 +73,7 @@ h3 {
   list-style: none;
   z-index: 100;
   
+  
 
   border-bottom: 1px solid #e0dfdf;
 }
@@ -101,8 +106,9 @@ h3 {
   color: #246d69;
   font-weight: bold;
   text-decoration: none;
+  line-height: 1;
   
-  
+ 
 
   transition: 0.6s;
 }
@@ -115,4 +121,181 @@ h3 {
 
 
 
+.titles {
+  letter-spacing: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.titles-1 {
+  padding-left: 100px;
+  padding-top: 110px;
+
+  
+  animation: 3s anim-lineUp ;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  }
+
+
+  .viewable {
+  
+    position: relative;
+    float: left;
+    width: calc(33.33333% - 20px);
+    margin-right: 20px; 
+    width: 100%;
+    padding-bottom: 40px;
+    
+    
+    
+
+    animation: 3s anim-lineUp ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(2%);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  .titles-2 {
  
+  /* padding-right: 60px; */
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  top: 1px;
+  text-align: right;
+  padding-right: 65px;
+  
+
+  animation: 4s anim-lineUp ;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.strings {
+  color: #111111;
+  padding-left: 100px;
+  font-size: 25px;
+}
+
+.second-string {
+  font-size: 20px;
+ }
+
+.profile {
+  margin-top: 0px;
+}
+
+/* .logos {
+  width: 90%;
+  height: 50%;
+  position: relative;
+  margin-bottom: 100px;
+  margin-left: 60px;
+} */
+
+h3 {
+  text-align: center;
+  font-size: 13px;
+  color: #246d69;
+}
+
+.logo-1,
+.logo-2,
+.logo-3,
+.logo-4,
+.logo-5,
+.logo-6,
+.logo-7,
+.logo-8,
+.logo-9,
+.logo-10,
+.logo-11,
+.logo-12,
+.logo-13,
+.logo-14,
+.logo-15,
+.logo-16,
+.logo-17,
+.logo-18,
+.logo-19,
+.logo-20,
+.logo-21,
+.logo-22,
+.logo-23 {
+  margin-bottom: 100px;
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.logos {
+  width: 100%;
+  height: auto;
+  transition: transform .2s;
+}
+
+.logos:hover {
+transform: scale(1.5);
+}
+
+.anim-show{
+  /* width:300px;
+  background:#176387;
+  color:#fff;
+  font-size:25px;
+  border:3px solid #2BA2DB;
+  padding:20px;
+  margin:auto;
+  margin-bottom:20px;
+  text-align:center; */
+  opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+  transition: 1s; /*Скорость перехода состояния элемента*/
+  animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+  animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+  animation-delay: 0s; /* Задержка перед началом */
+  }
+
+  @keyframes show{
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    }
