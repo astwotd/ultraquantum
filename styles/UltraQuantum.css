@@ -22,8 +22,7 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   padding-right: 15px;
   padding-left: 15px;
 
@@ -151,6 +150,24 @@ h3 {
   }
 }
 
+.services-picture-2 {
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  top: 1px;
+  text-align: left;
+  padding-right: 65px;
+  padding-left: 115px;
+}
+
+.services-picture-1 {
+  position: relative;
+  float: left;
+  width: calc(33.33333% - 20px);
+
+  width: 100%;
+  padding-bottom: 40px;
+}
 
 .viewable {
 
@@ -219,7 +236,7 @@ h3 {
 }
 
 .second-string {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .profile {
@@ -236,8 +253,9 @@ h3 {
   } */
 
 h3 {
+  padding-top: 50px;
   text-align: center;
-  font-size: 100px;
+  font-size: 12px;
   color: #246d69;
 }
 
@@ -380,8 +398,13 @@ P {
     transform: translateY(0%);
   }
 
+}
 
-
+.cns-4 {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .profile-3 {
@@ -408,4 +431,317 @@ P {
 
 .profile-4:hover {
   transform: scale(2);
+}
+
+.some {
+  padding-top: 50px;
+
+  font-size: 30px;
+  padding-bottom: 1px;
+  font-weight: 500;
+  line-height: 1.5;
+
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+
+.services {
+  font-size: 70px;
+  font-weight: 1000;
+  padding-left: 115px;
+}
+
+.cnspack {
+  text-decoration: underline;
+  color: #246d69;
+}
+
+.cns-1 {
+  color: #111111;
+  padding-left: 110px;
+  padding-top: 50px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: left;
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.cns-2 {
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 110px;
+  line-height: 40px;
+  padding-right: 100px;
+  animation: 3s anim-lineUp;
+
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.cns-8 {
+  opacity: 1;
+  
+  padding-left: 100px;
+  padding-top: 50px;
+  left: 0;
+  width: 60%;
+  height: 60%;
+  position: relative;
+  transition: transform .2s;
+
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+}
+
+.border-1 {
+  border: 2px solid rgb(23, 23, 23);
+  margin-left: 110px;
+  margin-right: 110px;
+  border-radius: 20px/20px;
+  padding: 50px;
+}
+
+.cns-5 {
+  padding-left: 310px;
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+.contact-1 {
+  letter-spacing: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #246d69;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #246d69;
+  color: white;
+  padding: 12px 100px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact-1 {
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.contact-2 {
+  color: #111111;
+  padding-left: 110px;
+  padding-top: 80px;
+
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: left;
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.contact-3 {
+  font-size: 25px;
+  font-weight: 500;
+  padding-right: 100px;
+  padding-left: 110px;
+  padding-bottom: 10px;
+  line-height: 40px;
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.str-1 {
+  color: #111111;
+  padding-left: 110px;
+  padding-top: 10px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: left;
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.sec-1 {
+  font-size: 25px;
+  padding-right: 250px;
+  font-weight: 500;
+  padding-left: 110px;
+  line-height: 40px;
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.str-2 {
+  color: #111111;
+  padding-left: 110px;
+  padding-top: 50px;
+
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: left;
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.str-3 {
+  font-size: 25px;
+  padding-right: 300px;
+  font-weight: 500;
+  padding-left: 110px;
+  line-height: 40px;
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
