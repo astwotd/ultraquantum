@@ -154,6 +154,8 @@ h2 {
   color: #ffffff;
   position: absolute;
   width: 100%;
+  letter-spacing: 2px;
+  font-weight: 1000;
   top: 1px;
   text-align: left;
   padding-right: 65px;
