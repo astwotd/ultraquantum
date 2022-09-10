@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  
+
 }
 
 body {
@@ -13,7 +13,7 @@ body {
   min-width: 1000px;
 
   background: #ffffff;
- 
+
 
 }
 
@@ -41,6 +41,7 @@ h3 {
 .color-logo {
   color: #246d69;
 }
+
 .mr-1 {
   margin-right: 3em;
 }
@@ -68,13 +69,13 @@ h3 {
   justify-content: space-between;
   list-style: none;
   z-index: 100;
-  
+
 
   border-bottom: 1px solid #e0dfdf;
 }
 
 .fixed-header {
-  
+
   position: fixed;
   height: 100px;
   width: 100%;
@@ -101,21 +102,22 @@ h3 {
   color: #246d69;
   font-weight: bold;
   text-decoration: none;
-  
-  
+
+
 
   transition: 0.6s;
 }
 
 .nav-horizontal a:hover {
-  color: #246d69;;
+  color: #246d69;
+  ;
 }
 
 
 
-.viewable {
+.profile-3 {
   opacity: 1;
-  
+
   left: 0;
   width: 50%;
   height: 50%;
@@ -124,18 +126,18 @@ h3 {
 
 }
 
-.viewable:hover {
+.profile-3:hover {
   transform: scale(2);
 }
 
-.viewable-1 {
+.profile-4 {
   width: 20%;
   height: 20%;
   transition: transform .2s;
-  
+
 }
 
-.viewable-1:hover {
+.profile-4:hover {
   transform: scale(2);
 }
 
@@ -143,7 +145,7 @@ h3 {
   letter-spacing: 0px;
   font-style: normal;
   font-weight: bold;
-  font-size: 10px; 
+  font-size: 10px;
   line-height: 1.5;
 }
 
@@ -151,20 +153,21 @@ h3 {
   padding-left: 15px;
   padding: 100px;
 
-  
-    animation: 3s anim-lineUp ;
+
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
   }
-  @keyframes anim-lineUp {
-    0% {
-      opacity: 0;
-      transform: translateY(2%);
-    }
-   
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
   }
+}
 
 
 .container-2 {
@@ -176,14 +179,15 @@ h3 {
   margin-right: 30px;
   line-height: 1.5;
 
-  animation: 4s anim-lineUp ;
+  animation: 4s anim-lineUp;
 }
+
 @keyframes anim-lineUp {
   0% {
     opacity: 0;
     transform: translateY(80%);
   }
-  
+
   100% {
     opacity: 1;
     transform: translateY(0%);
@@ -197,7 +201,7 @@ h3 {
 }
 
 
-.strings {
+.profile-1 {
   color: #111111;
   padding-left: 110px;
   padding-top: 120px;
@@ -205,39 +209,41 @@ h3 {
   font-weight: 700;
   line-height: 60px;
   text-align: left;
-  animation: 3s anim-lineUp ;
-  }
-  @keyframes anim-lineUp {
-    0% {
-      opacity: 0;
-      transform: translateY(2%);
-    }
-    
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
+  animation: 3s anim-lineUp;
 }
 
-.second-string {
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(2%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.profile-2 {
   font-size: 25px;
   font-weight: 500;
   padding-left: 110px;
   line-height: 40px;
-  
-  animation: 3s anim-lineUp ;
+
+  animation: 3s anim-lineUp;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
   }
-  @keyframes anim-lineUp {
-    0% {
-      opacity: 0;
-      transform: translateY(10%);
-    }
-    
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
- }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
 
 .profile {
   margin-top: 0px;
@@ -260,7 +266,7 @@ h3 {
 
 
 P {
-  border: 2px solid rgb(23, 23, 23); 
+  border: 2px solid rgb(23, 23, 23);
   margin-left: 110px;
   margin-right: 110px;
   border-radius: 20px/20px;
@@ -269,20 +275,20 @@ P {
   font-size: 25px;
   font-weight: 500;
   line-height: 40px;
-  animation: 3s anim-lineUp ;
-  }
-  @keyframes anim-lineUp {
-    0% {
-      opacity: 0;
-      transform: translateY(10%);
-    }
-    
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  
-
-  
+  animation: 3s anim-lineUp;
 }
- 
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+
+
+}
