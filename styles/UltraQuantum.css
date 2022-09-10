@@ -513,16 +513,23 @@ P {
   }
 }
 
+
+
+.cns-8:hover {
+  transform: scale(1.5);
+}
+
 .cns-8 {
   opacity: 1;
-  
-  padding-left: 100px;
+  transform: .2s;
+  padding-left: 10px;
   padding-top: 50px;
   left: 0;
   width: 60%;
   height: 60%;
   position: relative;
   transition: transform .2s;
+
 
   animation: 3s anim-lineUp;
 }
@@ -549,10 +556,12 @@ P {
 }
 
 .cns-5 {
-  padding-left: 310px;
+  padding-left: 100px;
   padding-top: 50px;
   font-size: 30px;
   font-weight: 1000;
+  /* padding-right: 300px; */
+  /* text-align: center; */
 }
 
 .contact-1 {
@@ -560,6 +569,7 @@ P {
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
+  
 }
 
 input[type=text],
@@ -578,6 +588,7 @@ textarea {
   margin-top: 6px;
   /* Add a top margin */
   margin-bottom: 16px;
+  
 
   /* Bottom margin */
   resize: vertical
@@ -592,6 +603,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  
 
 }
 
@@ -608,6 +620,7 @@ input[type=submit]:hover {
   width: 100%;
   padding-left: 100px;
   padding-right: 100px;
+  
 
 }
 
@@ -640,7 +653,7 @@ input[type=submit]:hover {
   font-weight: 500;
   padding-right: 100px;
   padding-left: 110px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   line-height: 40px;
   animation: 3s anim-lineUp;
 }
