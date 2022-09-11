@@ -151,8 +151,8 @@ h2 {
 }
 
 .services-picture-2 {
-  color: #ffffff;
-  position: absolute;
+  color: #111111;
+  /* position: absolute; */
   width: 100%;
   letter-spacing: 2px;
   font-weight: 1000;
